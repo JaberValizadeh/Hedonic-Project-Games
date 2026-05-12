@@ -143,14 +143,10 @@ PoS_{NS} = PoS_{JS} = 1
 
 ```text
 .
-├── algorithms/          # Coalition formation algorithms
-├── experiments/         # Experimental evaluation scripts
-├── games/               # Hedonic project game models
-├── stability/           # Stability verification methods
+├── algorithms/          # Best response dynamics 
+├── games/               # Hedonic game models (addSep, monoDec, perCap)
+├── stability/           # Stability notions (NS, JS, LS)
 ├── learning/            # Online learning and adaptive dynamics
-├── datasets/            # Synthetic and real-world datasets
-├── figures/             # Generated figures and plots
-├── utils/               # Utility/helper functions
-├── notebooks/           # Experimental notebooks
-├── paper/               # Paper and supplementary material
+├── datasets/            # gMission dataset
+├── appendix/            # examples and proofs
 └── README.md
